@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1.2rem;
+}
+
+.logo {
+
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    color: black !important;
+}
+
+.logo h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.nav a:hover {
+    color: green;
+}
+
+.spacer {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-list a i {
+    margin-right: 10px;
+}
+
+/* body image */
+
+
+
+.body-image {
+    background-image: url("/assets/images/photo-1510915228340-29c85a43dcfe.jpg");
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid green;
+    align-items: center;
+}
+
+.body-image button {
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 3px green;
+}
+
+.body-image button:hover {
+    background-color: gray;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+.body-image h1 {
+    font-size: 80px;
+    margin: 0 auto;
+    color: whitesmoke;
+}
+
+.body-image h2 {
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+/* footer */
+
+.footer li {
+    display: inline-block;
+    padding: 20px;
+}
+
+
+.footer a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.footer a:hover {
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.social-media {
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.social-media a {
+    color: black;
+    margin-right: 5px;
+}
+
+.social-media a:hover {
+    color: green;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 809px) {
+    .logo {
+        display: none;
+    }
+
+    .nav {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .nav li {
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+
+    .nav-list a i {
+        display: none;
+    }
+
+    /* body */
+
+    .body-image h1 {
+        font-size: 60px;
+        margin: 0 auto;
+        color: whitesmoke;
+    }
+
+
+}
