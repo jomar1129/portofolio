@@ -65,7 +65,7 @@ ul {
 
 
 .body-image {
-    background-image: url("assets/images/photo-1510915228340-29c85a43dcfe.jpg");
+    background-image: url("background.jpg");
     height: 800px;
     background-size: cover;
     position: relative;
